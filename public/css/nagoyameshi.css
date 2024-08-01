@@ -1,0 +1,260 @@
+/*ヘッダー*/
+.img-logo {
+width: 20px;
+height: 20px;
+}
+.nagoyameshi-header-container {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.nagoyameshi-header-search-input {
+  border: solid 1px #e5e5e5;
+}
+
+.nagoyameshi-header-search-button {
+  background-color: #0fbe9f;
+}
+
+.nagoyameshi-header-search-icon {
+  color: #ffffff;
+}
+
+.nagoyameshi-header-fav-icon {
+  color: #191919;
+}
+
+.nagoyameshi-header-shoppingcart-icon {
+  color: #ffffff;
+}
+
+@font-face {
+  font-family: YuGo;
+  src: local(YuGo-Medium),
+    url(/path/to/YuGo-Medium.woff2) format("woff2"),
+    url(/path/to/YuGo-Medium.woff) format("woff"),
+    url(/path/to/YuGo-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: YuGo;
+  src: local(YuGo-Bold),
+    url(/path/to/YuGo-Bold.woff2) format("woff2"),
+    url(/path/to/YuGo-Bold.woff) format("woff"),
+    url(/path/to/YuGo-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+h1 {
+  font-family: YuGo;
+  font-size: 26px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.13px;
+}
+
+h2 {
+  font-family: YuGo;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+h3 {
+  font-family: YuGo;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.04px;
+}
+
+big {
+  font-family: YuGo;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.08px;
+}
+
+body {
+  font-family: YuGo;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.11px;
+}
+
+caption {
+  font-family: YuGo;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.08px;
+}
+
+label {
+  font-family: YuGo;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #191919;
+}
+
+
+.nagoyameshi-login-input {
+  border-radius: 2px;
+  border: solid 1px #b2b2b2;
+  background-color: #ffffff;
+}
+
+.nagoyameshi-check-label {
+  font-family: YuGo;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.nagoyameshi-require-input-label {
+  border-radius: 1px;
+  background-color: #e2001b;
+}
+
+.nagoyameshi-require-input-label-text {
+  font-family: YuGo;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.nagoyameshi-submit-button {
+  font-family: YuGo;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  background-color: #0fbe9f;
+}
+
+.nagoyameshi-login-text {
+  font-family: YuGo;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0fbe9f;
+}
+
+/*お気に入り*/
+.nagoyameshi-favorite-button {
+  border-radius: 2px;
+  border: solid 1px #0fbe9f;
+  background-color: #ffffff;
+}
+
+.text-favorite {
+  color: #0fbe9f;
+}
+/*センターバー*/
+.nagoyameshi-centerbar-category-label {
+  text-align: center;
+  width: 156px;
+  height: 20px;
+  font-family: YuGo;
+  font-size: 25px;
+  font-weight: 500px;
+  font-stretch:expanded;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color:chartreuse;
+  
+}
+/*お気に入り*/
+.nagoyameshi-favorite-reservation {
+  border-radius: 2px;
+  color: #ffffff;
+  background-color: #0fbe9f;
+}
+
+/*レビュー*/
+.review-score-color {
+  color: #0fbe9f;
+}
+
+.review-score-color:focus {
+  color: #0fbe9f;
+}
+/*退会*/
+.nagoyameshi-delete-submit-button {
+  border-radius: 2px;
+  color: #ffffff;
+  background-color: #d94b0e;
+}
+
+/* トップページの上画像 */
+.top-container{
+  display: block;
+  margin: auto;
+  width: 70%;
+  height:auto;
+  background: #000;
+  position: relative;
+
+}
+.top-image{
+  width: 100%;
+  height: 500px;
+  
+  opacity: 0.5;
+}
+.top-font{
+  position: absolute;
+  top: 250px;
+  left: 400px;
+  font-size: 30px;
+  color: #ffffff;
+}
+#container-search{
+  width: 100%;
+  background-color:rgb(235, 229, 220);
+  padding-bottom: 30px;
+  
+}
+#search-btn{
+  background-color: rgb(0, 106, 255);
+  color: #ffffff;
+}
