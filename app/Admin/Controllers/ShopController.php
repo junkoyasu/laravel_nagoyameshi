@@ -89,6 +89,7 @@ class ShopController extends AdminController
     protected function form()
     {
         $form = new Form(new Shop());
+        
 
         $form->text('name', __('Name'));
         $form->textarea('description', __('Description'));

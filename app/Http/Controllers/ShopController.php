@@ -143,17 +143,5 @@ class ShopController extends Controller
  
          return view('web.index', compact('shops','categories','recently_shops','recommend_shops'));
      }
-    //  public function search2(Request $request)
-    //  {
-    //      $keyword = $request->input('keyword');
-         
-    //      if ($keyword) {
-    //          $shops = Shop::where('name', 'LIKE', "%{$keyword}%")->get();
-    //      } else {
-    //          $shops = Shop::all();
-    //      }
-    //      $categories = Category::all()->sortBy('category');
- 
-    //      return view('shop.index', compact('shops','categories'));
-    //  }
+    
 }

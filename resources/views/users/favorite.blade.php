@@ -29,9 +29,7 @@
                      削除
                  </a>
              </div>
-             <div class="col-md-3 d-flex align-items-center justify-content-end">
-                 <button type="submit" class="btn nagoyameshi-favorite-reservation">予約する</button>
-             </div>
+             
              @endforeach
          </div>
  

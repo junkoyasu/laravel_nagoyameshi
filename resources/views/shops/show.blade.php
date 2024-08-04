@@ -31,12 +31,7 @@
                  <input type="hidden" name="id" value="{{$shop->id}}">
                  <input type="hidden" name="name" value="{{$shop->name}}">
                  <input type="hidden" name="price" value="{{$shop->price}}">
-                 <!-- <div class="form-group row"> 
-                     <label for="quantity" class="col-sm-2 col-form-label">人数</label>
-                     <div class="col-sm-10">
-                         <input type="number" id="quantity" name="qty" min="1" value="1" class="form-control w-25">
-                     </div>
-                 </div>-->
+                 
                  <input type="hidden" name="weight" value="0">
                  <div class="row">
                      <div class="col-7">
@@ -83,7 +78,7 @@
          </div>
  
          <div class="offset-1 col-10">
-             <!-- レビューを実装する箇所になります -->
+             
              <div class="row">
                  @foreach($reviews as $review)
                  <div class="offset-md-5 col-md-5">

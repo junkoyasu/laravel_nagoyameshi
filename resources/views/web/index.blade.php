@@ -3,7 +3,7 @@
  @section('content')
  
     <div class="top-container">
-        <img src="{{ asset('img/udon.jpg')}}" class="top-image" >
+        <img src="{{ asset('img/hitsumabushi.jpg')}}" class="top-image" >
         <p class="top-font">名古屋ならではの味を、<br>見つけよう</p>
     </div>
     <div class="row">
@@ -57,9 +57,9 @@
      <!-- <div class="col-6"> -->
     
      <!-- </div> -->
-     <div class="col-9">
+     <div class="col-9" id='recommend-shop'>
          <h1>おすすめ店舗</h1>
-         <div class="row">
+         <div class="row" >
          @foreach ($recommend_shops as $recommend_shop)
              <div class="col-4">
                  <a href="{{ route('shops.show', $recommend_shop) }}">

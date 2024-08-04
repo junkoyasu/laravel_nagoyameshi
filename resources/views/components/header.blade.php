@@ -4,14 +4,7 @@
       <img src="{{ asset('img/logo.svg')}}" class="img-logo">
        {{ config('app.name', 'Laravel') }}
      </a>
-     <form class="row g-1">
-       <div class="col-auto">
-         <!-- <input class="form-control nagoyameshi-header-search-input"> -->
-       </div>
-       <!-- <div class="col-auto"> -->
-         <!-- <button type="submit" class="btn nagoyameshi-header-search-button"><i class="fas fa-search nagoyameshi-header-search-icon"></i></button> -->
-       <!-- </div> -->
-     </form>
+     
      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
        <span class="navbar-toggler-icon"></span>
      </button>
@@ -31,10 +24,7 @@
          <li class="nav-item mr-5">
            <a class="nav-link" href="{{ route('login') }}"><i class="far fa-heart"></i></a>
          </li>
-         <!--  
-         <li class="nav-item mr-5">
-           <a class="nav-link" href="{{ route('login') }}"><i class="fas fa-shopping-cart"></i></a>
-         </li> -->
+        
          @else
          <li class="nav-item mr-5">
            <a class="nav-link" href="{{ route('mypage') }}">
