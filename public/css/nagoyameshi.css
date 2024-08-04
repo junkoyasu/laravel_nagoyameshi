@@ -274,3 +274,11 @@ label {
 #footer {
   position: sticky;
 }
+#container-shop {
+  display: block;
+  margin: auto;
+}
+#container-itirann{
+  display: block;
+  margin: auto;
+}

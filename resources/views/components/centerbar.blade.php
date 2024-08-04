@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" id="container-shop">
 <h1 class="h1-category">カテゴリー検索</h1>
  @foreach ($categories as $category)
  

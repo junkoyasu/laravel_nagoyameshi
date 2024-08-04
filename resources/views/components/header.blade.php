@@ -28,12 +28,19 @@
          @else
          <li class="nav-item mr-5">
            <a class="nav-link" href="{{ route('mypage') }}">
-             <i class="fas fa-user mr-1"></i><label>マイページ</label>
+             <i class="fas fa-user mr-5"></i><label>マイページ</label>
            </a>
          </li>
          <li class="nav-item mr-5">
+          
            <a class="nav-link" href="{{ route('mypage.favorite') }}">
-             <i class="far fa-heart"></i>
+           @if(Auth::check() && Auth::user()->token)
+           <i class="far fa-heart"></i><label>お気に入り</label> 
+                        @else
+                         <a href="{{ route('mypage.register_card') }}">有料会員の方はお気に入りが確認できます。</a>
+                        @endif
+            
+           <!-- <i class="far fa-heart"></i> -->
            </a>
          </li>
          @endguest

@@ -54,9 +54,7 @@
          @component('components.centerbar', ['categories' => $categories])
          @endcomponent
      </div> 
-     <!-- <div class="col-6"> -->
     
-     <!-- </div> -->
      <div class="col-9" id='recommend-shop'>
          <h1>おすすめ店舗</h1>
          <div class="row" >

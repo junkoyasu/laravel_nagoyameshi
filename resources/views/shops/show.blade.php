@@ -35,18 +35,14 @@
                  <input type="hidden" name="weight" value="0">
                  <div class="row">
                      <div class="col-7">
-                        <!-- resources/views/shops/show.blade.php -->
+                        
                         @if(Auth::check() && Auth::user()->token)
                          <a href="{{ route('shops.reservations.create', $shop) }}" class="btn btn-primary">予約する</a>
                         @else
                          <p>有料会員のみ予約が可能です。<a href="{{ route('mypage.register_card') }}">こちらから有料会員に登録</a>。</p>
                         @endif
                      
-                        <!--  
-                         <button type="submit" class="btn nagoyameshi-submit-button w-100">
-                             <i class="fas fa-shopping-cart"></i>
-                             予約
-                         </button>-->
+                    
                      </div>
                      <div class="col-5">
                      @if(Auth::check() && Auth::user()->token)
